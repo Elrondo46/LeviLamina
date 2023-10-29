@@ -21,9 +21,9 @@ export WINEDEBUG="${WINEDEBUG:--all}"
 if [ ! -f "bedrock_server_mod.exe" ]; then
     if [ "$VERSION" = "LATEST" ]
     then
-        lip install -y github.com/tooth-hub/liteloaderbds
+        lip install -y github.com/tooth-hub/levilamina
     else
-        lip install -y github.com/tooth-hub/liteloaderbds@$VERSION
+        lip install -y github.com/tooth-hub/levilamina@$VERSION
     fi
 
     # Install packages, line by line
