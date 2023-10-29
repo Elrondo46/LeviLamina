@@ -1,5 +1,6 @@
 #! /usr/bin/env sh
 
+
 # Set default values for environment variables
 VERSION="${VERSION:-LATEST}"
 PACKAGES="${PACKAGES:-}"
