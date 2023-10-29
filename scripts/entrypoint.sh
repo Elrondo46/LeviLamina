@@ -24,7 +24,7 @@ if [ ! -f "bedrock_server_mod.exe" ]; then
     then
         lip install -y github.com/tooth-hub/levilamina
     else
-        lip install -y github.com/tooth-hub/levilamina@$VERSION
+        lip install -y github.com/tooth-hub/levilamina
     fi
 
     # Install packages, line by line
